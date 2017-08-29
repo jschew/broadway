@@ -1,0 +1,31 @@
+body{
+  font-family: Helvetica;
+  text-align: center;
+}
+
+a{
+  color: white;
+}
+
+/* header stylizing */
+.header{
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* footer stylizing */
+.footer{
+  text-align: left;
+  color: white;
+  font-size: 11px;
+  background-color: dimgray;
+}
+
+/* special background image at "page break" */
+.pagebreak{
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
