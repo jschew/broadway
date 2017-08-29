@@ -1,3 +1,5 @@
+/* type selectors */
+
 body{
   font-family: Helvetica;
   text-align: center;
@@ -6,6 +8,28 @@ body{
 a{
   color: white;
 }
+
+h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 14px;
+}
+
+
+/* classes*/
 
 /* header stylizing */
 .header{
@@ -29,3 +53,5 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* ID selectors */
