@@ -5,7 +5,7 @@ body{
   text-align: center;
 }
 
-a{
+a {
   color: white;
 }
 
@@ -28,17 +28,31 @@ p{
   font-size: 14px;
 }
 
+table{
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
 
 /* classes*/
 
-/* header stylizing */
+/* +++++ header stylizing +++++*/
 .header{
   color: white;
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
 
-  /* add a black "border" to the text in the header image, its really just a complicated shadow */
+.header p{
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* add a black "border" to the text in the header image, its really just a complicated shadow */
+.header, .header p{
   text-shadow: 1px 1px 0 #000,
     -1px 1px 0 #000,
     1px -1px 0 #000,
@@ -66,22 +80,43 @@ p{
 
 }
 
-/* footer stylizing */
-.footer{
-  text-align: left;
-  color: white;
-  font-size: 11px;
-  background-color: dimgray;
+/* get rid of the super ugly line under the links */
+.header a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
 }
 
-/* special background image at "page break" */
+/* +++++ footer stylizing +++++ */
+
+/* dimgray page break bar */
 .pagebreak{
-  background-image: url("../images/the-flatiron-building.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
+  background-color: dimgray;
+
 }
 
+.portfolio{
+  text-align: left;
+
+
+}
+
+.team{
+  text-align: center;
+}
+
+.contact{
+  text-align: right;
+}
 /* ID selectors */
+
+.left{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+  padding-left: 155px;
+}
+
+.right{
+  text-align: right;
+}
